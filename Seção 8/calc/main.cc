@@ -34,6 +34,7 @@ int main(){
         cin>>quit;
         if(quit == 's' || quit == 'S'){
             cout<<"Saída requisitada! Desligando..."<<endl;
+            system("PAUSE");
             exit(0);
         }
     }while(true);
